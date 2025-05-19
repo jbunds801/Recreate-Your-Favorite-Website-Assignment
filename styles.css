@@ -9,6 +9,10 @@ body {
     src: url('Assets/Fluox___.ttf') format('truetype');
 }
 
+.footer {
+    font-size: 12px;
+}
+
 /* ul {
     font-size: 35px;
 } */
@@ -50,24 +54,27 @@ a {
     width: 30%;
 }
 
-@media screen and (max-width: 1200px){
-  .sizing-cards{
-    width: 45%
-  }
+@media screen and (max-width: 1200px) {
+    .sizing-cards {
+        width: 45%
+    }
 }
 
-@media screen and (max-width: 992px){
-  .sizing-cards{
-    width: 65%
-  }
+@media screen and (max-width: 992px) {
+    .sizing-cards {
+        width: 65%
+    }
 }
 
 /*BUTTON SIZE*/
-/* .carousel-control-next-icon,
-.carousel-control-prev-icon {
-  width: 1vw;
-  height: 1vw;
-} */
+@media screen and (max-width: 576px) {
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 5vw;
+        height: 5vw;
+    }
+}
 
 
 /* .left-right-controls {
@@ -84,5 +91,7 @@ a {
 .about-me {
     font-size: 2.5rem;
     padding: 100px;
-    font-family: 'Courier New', Courier, monospace 
+    font-family: 'Courier New', Courier, monospace
 }
+
+/* CONTACT PAGE */
