@@ -47,7 +47,6 @@
                     <th scope="col"></th>
                     <th scope="col" class="fs-5">print only</th>
                     <th scope="col" class="fs-5">framed print</th>
-                    <th scope="col" class="fs-5">calculate shipping</th>
                 </tr>
             </thead>
             <tbody>
@@ -55,25 +54,33 @@
                     <th scope="row" class="fs-5">originals</th>
                     <td>$400</td>
                     <td>$550</td>
-                    <td>zip code = cost</td>
                 </tr>
                 <tr>
                     <th scope="row" class="fs-5">true to size print</th>
                     <td>$40</td>
                     <td>$125</td>
-                    <td>zip code = cost</td>
+                    <td></td>
                 </tr>
                 <tr>
                     <th scope="row" class="fs-5">large print</th>
                     <td>$80</td>
                     <td>$200</td>
-                    <td>zip code = cost</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="col" class="fs-5">calculate shipping</th>
+                    <td><input type="text" name="zipCode" size="6" onchange="" placeholder="zip code" />
+                        <input type="button" name="calcShipping" value="go" onchange="" />
+                    </td>
+                    <td><input type="text" name="zipCode" size="6" onchange="" placeholder="zip code" />
+                        <input type="button" name="calcShipping" value="go" onchange="" />
+                    </td>
                 </tr>
             </tbody>
         </table>
     </div>
 
-    <footer class="footer p-3 text-center text-lg-end">&copy; Jessica Bundy 2025</footer>
+    <footer class="footer p-3 text-center text-lg-end fw-thin">&copy; Jessica Bundy 2025</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"

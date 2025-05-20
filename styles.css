@@ -1,6 +1,5 @@
 body {
     background-color: #dbdbdb;
-    margin: 00px;
     font-family: fluoxetine, sans-serif;
 }
 
@@ -12,14 +11,6 @@ body {
 .footer {
     font-size: 12px;
 }
-
-/* ul {
-    font-size: 35px;
-} */
-
-/* li {
-    display: inline;
-} */
 
 li a:link {
     text-decoration: none;
@@ -40,16 +31,7 @@ a {
     padding: 15px;
 }
 
-/* #polaroids {
-    position: relative;
-} */
-
-/* .carousel-indicators {
-    bottom: -50px;
-    z-index: 1;
-} */
-
-
+/* HOME PAGE */
 .sizing-cards {
     width: 30%;
 }
@@ -66,7 +48,7 @@ a {
     }
 }
 
-/*BUTTON SIZE*/
+/* BUTTON SIZE */
 @media screen and (max-width: 576px) {
 
     .carousel-control-next-icon,
@@ -76,22 +58,7 @@ a {
     }
 }
 
-
-/* .left-right-controls {
-    margin: auto;
-} */
-
-/* .carousel-item img {
-    padding: 100px;
-} */
-
-
 /* ABOUT PAGE */
-
 .about-me {
-    font-size: 2.5rem;
-    padding: 100px;
-    font-family: 'Courier New', Courier, monospace
+    font-family: 'Courier New', Courier, monospace;
 }
-
-/* CONTACT PAGE */
