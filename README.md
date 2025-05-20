@@ -26,6 +26,7 @@ probably, one would be more if it was a framed or not framed, the would return d
 this on the website I found the code on, and it mentioned something about an API and using google maps to calculate
 distance so I'm sure this is fairly advanced! 
 
-Anotehr feature that would be cool to add later too would maybe be to be able to click on the individual polaroid and
+Another feature that would be cool to add later too would maybe be to be able to click on the individual polaroid and
+
 have another image of a back of a polaroid to show a "quick look" of the price before clicking on the link and having
 it take you to the store!
