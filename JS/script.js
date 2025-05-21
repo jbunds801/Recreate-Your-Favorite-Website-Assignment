@@ -28,7 +28,9 @@ function myFunction() {
 }
 
 /* THIS WILL CALCULATE SHIPPING BASED OFF DISTANCE */
-function getTotalPrice() {
-  return prices.reduce((total, price) => total + price, 0);
+let zipCode = input
+  
+function getShipping() {
+  return shipping((zip code, type) => shipping, );
 }
-console.log(`Total price: $${getTotalPrice()}`);
+console.log(`Shipping: $${getShipping()}`);
