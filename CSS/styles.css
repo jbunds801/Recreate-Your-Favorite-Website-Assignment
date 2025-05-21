@@ -5,7 +5,7 @@ body {
 
 @font-face {
     font-family: fluoxetine;
-    src: url('Assets/Fluox___.ttf') format('truetype');
+    /* src: url(Assets/Fluox__.ttf) format('truetype'); */
 }
 
 .footer {
