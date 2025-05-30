@@ -1,0 +1,73 @@
+body {
+    background-color: #dbdbdb;
+    font-family: fluoxetine, Courier New;
+}
+
+@font-face {
+    font-family: fluoxetine;
+    src: url(/Assets/Fluox___.ttf) format('truetype');
+}
+
+.footer {
+    font-size: 12px;
+    scroll-margin-top: 10px;
+}
+
+li a:link {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+li a:visited {
+    color: #696969;
+}
+
+li a:hover {
+    color: #ffffff;
+}
+
+a {
+    color: black;
+    display: inline-block;
+    padding: 15px;
+}
+
+/* HOME PAGE */
+.sizing-cards {
+    width: 30%;
+}
+
+@media screen and (max-width: 1200px) {
+    .sizing-cards {
+        width: 45%
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .sizing-cards {
+        width: 65%
+    }
+
+    .footer {
+        position: relative;
+    }
+}
+
+/* BUTTON SIZE */
+@media screen and (max-width: 576px) {
+
+    .footer {
+        font-size: 9px;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 5vw;
+        height: 5vw;
+    }
+}
+
+/* ABOUT PAGE */
+.about-me {
+    font-family: 'Courier New', Courier, serif;
+}
